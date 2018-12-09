@@ -1,0 +1,3 @@
+etc                 app/code/DG/Framework/etc
+composer.json       app/code/DG/Framework/composer.json
+registration.php    app/code/DG/Framework/registration.php
