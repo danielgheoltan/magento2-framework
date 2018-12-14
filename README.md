@@ -1,5 +1,9 @@
 # DG Framework
 
+## Introduction
+
+Creates symlinks when deploying static view files.
+
 ## Install
 
 ```
@@ -14,6 +18,7 @@ php bin/magento cache:flush
 
 ```
 composer remove dg/framework
+php bin/magento cache:flush
 ```
 
 ## Update
