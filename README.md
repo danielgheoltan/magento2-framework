@@ -7,8 +7,7 @@ Creates symlinks when deploying static view files.
 ## Install
 
 ```
-composer config repositories.dg/framework git https://github.com/danielgheoltan/magento2-framework.git
-composer require dg/framework:dev-master
+composer require danielgheoltan/magento2-framework
 php bin/magento setup:upgrade
 php bin/magento module:enable DG_Framework
 php bin/magento cache:flush
@@ -17,13 +16,13 @@ php bin/magento cache:flush
 ## Remove
 
 ```
-composer remove dg/framework
+composer remove danielgheoltan/magento2-framework
 php bin/magento cache:flush
 ```
 
 ## Update
 
 ```
-composer update dg/framework
+composer update danielgheoltan/magento2-framework
 php bin/magento cache:flush
 ```
