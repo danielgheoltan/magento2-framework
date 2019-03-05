@@ -2,8 +2,8 @@
     "name": "danielgheoltan/magento2-framework",
     "description": "Creates symlinks when deploying static view files.",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0",
-        "magento/framework": "*"
+        "php": "*",
+        "magento/framework": ">=100.0.0"
     },
     "type": "magento2-module",
     "version": "1.0.0",
