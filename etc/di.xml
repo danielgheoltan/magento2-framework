@@ -8,9 +8,4 @@
             </argument>
         </arguments>
     </type>
-    <type name="Magento\Framework\View\Element\Html\Link\Current">
-        <plugin name="DGFrameworkViewElementHtmlLinkCurrent"
-                type="DG\Framework\Plugin\View\Element\Html\Link\CurrentPlugin"
-                sortOrder="10"/>
-    </type>
 </config>

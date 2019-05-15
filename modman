@@ -1,3 +1,4 @@
 etc                 app/code/DG/Framework/etc
 composer.json       app/code/DG/Framework/composer.json
+README.md           app/code/DG/Framework/README.md
 registration.php    app/code/DG/Framework/registration.php
